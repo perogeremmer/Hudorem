@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hudorem"
+version = "0.0.1"
+description = "Hudorem is Migration Library for SQL Migration"
+authors = ["perogeremmer <mhudyaramadhana@gmail.com>"]
+license = "GPL 3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mysql-connector = "^2.2.9"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
